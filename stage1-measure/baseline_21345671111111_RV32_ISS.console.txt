@@ -1,0 +1,3 @@
+B' R' D2 R' B R B' R D2 B R'
+
+Program exited with code: 0
