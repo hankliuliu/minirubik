@@ -1,0 +1,13 @@
+gcc -O2 -std=c11 -Wall -Wextra -o gen_tables gen_tables.c
+./gen_tables
+tables: 91350 bytes
+gcc -O2 -std=c11 -Wall -Wextra -fopenmp -DIDA_STATS -o check check.c ida.c tables.c
+./check
+H2a PT, OT, POS match cube.h; each face is a bijection of order 4; POS fibers all 120
+BFS 3674160 states, by distance: 1 9 54 321 1847 9992 50136 227536 870072 1887748 623800 2644
+H2b PD: 5040 entries, max 7, PD[0] = 0; OPD: 30618 entries, max 8, OPD[2] = 0; every entry = its fiber minimum; padding 0xFF
+H1  h <= d at all 3674160 states (0 violations); h == d at 91311; mean h 6.174; d - h: 91311 471938 1133959 1280498 584574 104696 6952 223 9
+H3  all 3674160 states: length == exact distance (0 wrong), path solves on cube.h (0 fail); 206.3 s on 8 threads
+    d=11: 2644 states, generated mean 42405, max 226032 at rank 2437047 (vector 54721631111111)
+H4  not applicable: no table is packed below one byte per entry
+all gates pass

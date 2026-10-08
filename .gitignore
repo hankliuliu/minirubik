@@ -5,3 +5,6 @@ solver
 mini
 stage1-measure/*.elf
 stage1-measure/ripes.ld
+stage2/gen_tables
+stage2/check
+stage2/explore

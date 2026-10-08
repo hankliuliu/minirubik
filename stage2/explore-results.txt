@@ -1,0 +1,45 @@
+distance-11 states: 2644; 21345671111111 has distance 11
+
+== heuristic max(P,O)
+   P          5040 reachable entries, max 7
+   O           729 reachable entries, max 6
+   mean h over all states 5.144 (mean d 8.756), inadmissible 0
+   d=11: generated mean 206618 max 639792 (expanded 106635, rank 2437047) | 2134567: generated 233961 expanded 38998 | wrong 0 | 8.6 s
+
+== heuristic max(P,OP:03)
+   P          5040 reachable entries, max 7
+   OP:03     30618 reachable entries, max 8
+   mean h over all states 6.174 (mean d 8.756), inadmissible 0
+   d=11: generated mean 42405 max 226032 (expanded 37675, rank 2437047) | 2134567: generated 48843 expanded 8145 | wrong 0 | 1.4 s
+
+== heuristic max(P,OP:36)
+   P          5040 reachable entries, max 7
+   OP:36     30618 reachable entries, max 8
+   mean h over all states 6.174 (mean d 8.756), inadmissible 0
+   d=11: generated mean 42419 max 224937 (expanded 37492, rank 192456) | 2134567: generated 109953 expanded 18330 | wrong 0 | 1.6 s
+
+== heuristic max(P,OP:012)
+   P          5040 reachable entries, max 7
+   OP:012   153090 reachable entries, max 9
+   mean h over all states 6.959 (mean d 8.756), inadmissible 0
+   d=11: generated mean 14611 max 114378 (expanded 19065, rank 3645) | 2134567: generated 26493 expanded 4420 | wrong 0 | 0.7 s
+
+== heuristic max(P,OP:01,OP:23)
+   P          5040 reachable entries, max 7
+   OP:01     30618 reachable entries, max 8
+   OP:23     30618 reachable entries, max 8
+   mean h over all states 6.310 (mean d 8.756), inadmissible 0
+   d=11: generated mean 26645 max 140547 (expanded 23427, rank 192456) | 2134567: generated 50331 expanded 8393 | wrong 0 | 0.9 s
+
+== heuristic max(PT:01,O)
+   PT:01     45360 reachable entries, max 8
+   O           729 reachable entries, max 6
+   mean h over all states 6.101 (mean d 8.756), inadmissible 0
+   d=11: generated mean 53000 max 157227 (expanded 26208, rank 2437047) | 2134567: generated 55227 expanded 9209 | wrong 0 | 2.2 s
+
+== heuristic max(PT:012,O)
+   PT:012   136080 reachable entries, max 9
+   O           729 reachable entries, max 6
+   mean h over all states 6.721 (mean d 8.756), inadmissible 0
+   d=11: generated mean 24030 max 82479 (expanded 13749, rank 2122780) | 2134567: generated 24321 expanded 4058 | wrong 0 | 1.2 s
+
