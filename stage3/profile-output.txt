@@ -1,0 +1,7 @@
+versions v0..v3 agree on all 2644 distance-11 states: yes
+d=11 totals: generated 112119181, expanded 18694241; leaf 0.0% of generated; inner: PD cut 50.8%, OPD cut 32.5%, pass 16.7%
+short scramble R B' D2 = 24173562322133
+solved                 d=0  generated       0  expanded      0 | leaf  -nan% | inner: PD cut  -nan%, OPD cut  -nan%, pass  -nan%
+24173562322133         d=3  generated      15  expanded      3 | leaf  20.0% | inner: PD cut 100.0%, OPD cut   0.0%, pass   0.0%
+21345671111111         d=11  generated   48843  expanded   8145 | leaf   0.0% | inner: PD cut  54.7%, OPD cut  28.7%, pass  16.7%
+54721631111111         d=11  generated  226032  expanded  37675 | leaf   0.0% | inner: PD cut  57.3%, OPD cut  26.1%, pass  16.7%

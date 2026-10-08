@@ -8,3 +8,6 @@ stage1-measure/ripes.ld
 stage2/gen_tables
 stage2/check
 stage2/explore
+stage3/build/
+stage3/profile
+stage3/check
